@@ -1,0 +1,12 @@
+G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\0_Framework\bin\Debug\net5.0\0_Framework.deps.json
+G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\0_Framework\bin\Debug\net5.0\0_Framework.dll
+G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\0_Framework\bin\Debug\net5.0\ref\0_Framework.dll
+G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\0_Framework\bin\Debug\net5.0\0_Framework.pdb
+G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\0_Framework\obj\Debug\net5.0\0_Framework.csproj.AssemblyReference.cache
+G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\0_Framework\obj\Debug\net5.0\0_Framework.GeneratedMSBuildEditorConfig.editorconfig
+G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\0_Framework\obj\Debug\net5.0\0_Framework.AssemblyInfoInputs.cache
+G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\0_Framework\obj\Debug\net5.0\0_Framework.AssemblyInfo.cs
+G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\0_Framework\obj\Debug\net5.0\0_Framework.csproj.CoreCompileInputs.cache
+G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\0_Framework\obj\Debug\net5.0\0_Framework.dll
+G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\0_Framework\obj\Debug\net5.0\ref\0_Framework.dll
+G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\0_Framework\obj\Debug\net5.0\0_Framework.pdb

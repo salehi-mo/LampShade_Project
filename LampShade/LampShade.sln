@@ -3,9 +3,45 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32602.291
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ShopManagement", "ShopManagement", "{660D19AD-D423-4EF2-B213-BEB9B1858CE8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SM.Domain", "SM.Domain", "{61ADA008-0AA9-48FF-A35F-A1150432D391}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopManagement.Domain", "ShopManagement.Domail\ShopManagement.Domain.csproj", "{281AA602-7718-42FF-8046-13446C0DE9E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0_Framework", "0_Framework\0_Framework.csproj", "{D9E73A7B-F7BA-42B5-B4C6-2F81FF0C7B40}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SM.Application", "SM.Application", "{73720723-F7CC-4281-8908-78B63022F894}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopManagement.Application.Contracts", "ShopManagement.Application.Contracts\ShopManagement.Application.Contracts.csproj", "{1234E416-8825-40B2-9DFE-42951ABC5D91}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{281AA602-7718-42FF-8046-13446C0DE9E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{281AA602-7718-42FF-8046-13446C0DE9E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{281AA602-7718-42FF-8046-13446C0DE9E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{281AA602-7718-42FF-8046-13446C0DE9E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9E73A7B-F7BA-42B5-B4C6-2F81FF0C7B40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9E73A7B-F7BA-42B5-B4C6-2F81FF0C7B40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9E73A7B-F7BA-42B5-B4C6-2F81FF0C7B40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9E73A7B-F7BA-42B5-B4C6-2F81FF0C7B40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1234E416-8825-40B2-9DFE-42951ABC5D91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1234E416-8825-40B2-9DFE-42951ABC5D91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1234E416-8825-40B2-9DFE-42951ABC5D91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1234E416-8825-40B2-9DFE-42951ABC5D91}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{61ADA008-0AA9-48FF-A35F-A1150432D391} = {660D19AD-D423-4EF2-B213-BEB9B1858CE8}
+		{281AA602-7718-42FF-8046-13446C0DE9E8} = {61ADA008-0AA9-48FF-A35F-A1150432D391}
+		{73720723-F7CC-4281-8908-78B63022F894} = {660D19AD-D423-4EF2-B213-BEB9B1858CE8}
+		{1234E416-8825-40B2-9DFE-42951ABC5D91} = {73720723-F7CC-4281-8908-78B63022F894}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D6031CBF-8BF1-45AF-95B8-48DEEABD06F0}
