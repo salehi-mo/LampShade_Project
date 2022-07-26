@@ -1,8 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "WDQn0y6GoOgWkqbsJlM6Osllaahuy8USlM8g6rAocaNHXwC8rdCxwU/apI/yFkToZGKp0b+/wrlZWW2JvkcmZg==",
-  "success": true,
+  "dgSpecHash": "F8r01sTtYl1TXD5qlffoKoqXo0ZS5SlnM8z+YGxVNY1eVHk3sLLzwVXWhMF2RqCSTLdovICoMX2gsFqVnZSDmQ==",
+  "success": false,
   "projectFilePath": "G:\\DotNetCore\\Examples\\Mvc_Final_Project\\Code\\LampShade\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj",
   "expectedPackageFiles": [],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'G:\\DotNetCore\\Examples\\Mvc_Final_Project\\Code\\LampShade\\ShopManagement.Domain\\ShopManagement.Domain.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "G:\\DotNetCore\\Examples\\Mvc_Final_Project\\Code\\LampShade\\ShopManagement.Domain\\ShopManagement.Domain.csproj",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    }
+  ]
 }

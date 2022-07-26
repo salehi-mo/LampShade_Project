@@ -1,47 +1,12 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {
-      "0_Framework/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
-        "compile": {
-          "bin/placeholder/0_Framework.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/0_Framework.dll": {}
-        }
-      },
-      "ShopManagement.Domain/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
-        "dependencies": {
-          "0_Framework": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/ShopManagement.Domain.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/ShopManagement.Domain.dll": {}
-        }
-      }
-    }
+    "net5.0": {}
   },
-  "libraries": {
-    "0_Framework/1.0.0": {
-      "type": "project",
-      "path": "../0_Framework/0_Framework.csproj",
-      "msbuildProject": "../0_Framework/0_Framework.csproj"
-    },
-    "ShopManagement.Domain/1.0.0": {
-      "type": "project",
-      "path": "../ShopManagement.Domail/ShopManagement.Domain.csproj",
-      "msbuildProject": "../ShopManagement.Domail/ShopManagement.Domain.csproj"
-    }
-  },
+  "libraries": {},
   "projectFileDependencyGroups": {
     "net5.0": [
-      "ShopManagement.Domain >= 1.0.0"
+      "G:\\DotNetCore\\Examples\\Mvc_Final_Project\\Code\\LampShade\\ShopManagement.Domain\\ShopManagement.Domain.csproj"
     ]
   },
   "packageFolders": {
@@ -81,8 +46,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "G:\\DotNetCore\\Examples\\Mvc_Final_Project\\Code\\LampShade\\ShopManagement.Domail\\ShopManagement.Domain.csproj": {
-              "projectPath": "G:\\DotNetCore\\Examples\\Mvc_Final_Project\\Code\\LampShade\\ShopManagement.Domail\\ShopManagement.Domain.csproj"
+            "G:\\DotNetCore\\Examples\\Mvc_Final_Project\\Code\\LampShade\\ShopManagement.Domain\\ShopManagement.Domain.csproj": {
+              "projectPath": "G:\\DotNetCore\\Examples\\Mvc_Final_Project\\Code\\LampShade\\ShopManagement.Domain\\ShopManagement.Domain.csproj"
             }
           }
         }
@@ -114,5 +79,16 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.409\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'G:\\DotNetCore\\Examples\\Mvc_Final_Project\\Code\\LampShade\\ShopManagement.Domain\\ShopManagement.Domain.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "G:\\DotNetCore\\Examples\\Mvc_Final_Project\\Code\\LampShade\\ShopManagement.Domain\\ShopManagement.Domain.csproj",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    }
+  ]
 }
