@@ -6,6 +6,7 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
+using _0_Framework.Application;
 using _0_Framework.Infrastructure;
 
 namespace ShopManagement.Infrastructure.EfCore.Repository
@@ -35,7 +36,15 @@ namespace ShopManagement.Infrastructure.EfCore.Repository
             }).FirstOrDefault(x => x.Id == id);
         }
 
-       
+        public List<ProductCategoryViewModel> GetProductCategories()
+        {
+            return _context.ProductCategories.Select(x => new ProductCategoryViewModel
+            {
+                Id = x.Id,
+                Name = x.Name
+            }).ToList();
+        }
+
         public List<ProductCategoryViewModel> Search(ProductCategorySearchModel SearchModel)
         {
             var query = _context.ProductCategories.Select(x => new ProductCategoryViewModel()
@@ -43,7 +52,7 @@ namespace ShopManagement.Infrastructure.EfCore.Repository
                 Id = x.Id,
                 Picture = x.Picture,
                 Name = x.Name,
-                CreationDate = x.CreationDate.ToString()
+                CreationDate = x.CreationDate.ToFarsi()
             });
 
             if (!string.IsNullOrWhiteSpace(SearchModel.Name))

@@ -1,3 +1,4 @@
+
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -9,6 +10,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using DiscountManagement.Configuration;
 
 namespace ServiceHost
 {
@@ -26,6 +28,7 @@ namespace ServiceHost
         {
             var conectionstring = Configuration.GetConnectionString("LampshadeDb");
             ShopManagementBootstrapper.Configure(services, conectionstring);
+            DiscountManagementBootstrapper.Configure(services, conectionstring);
             services.AddRazorPages();
         }
 
