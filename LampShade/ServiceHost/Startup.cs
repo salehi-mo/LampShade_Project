@@ -11,6 +11,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using DiscountManagement.Configuration;
+using InventoryManagement.Infrastructure.Configuration;
 
 namespace ServiceHost
 {
@@ -29,6 +30,7 @@ namespace ServiceHost
             var conectionstring = Configuration.GetConnectionString("LampshadeDb");
             ShopManagementBootstrapper.Configure(services, conectionstring);
             DiscountManagementBootstrapper.Configure(services, conectionstring);
+            InventoryManagementBootstrapper.Configure(services, conectionstring);
             services.AddRazorPages();
         }
 
