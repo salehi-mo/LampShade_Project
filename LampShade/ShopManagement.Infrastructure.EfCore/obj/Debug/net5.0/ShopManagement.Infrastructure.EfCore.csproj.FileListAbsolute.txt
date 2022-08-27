@@ -1,3 +1,8 @@
+G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\ShopManagement.Infrastructure.EfCore\obj\Debug\net5.0\ShopManagement.Infrastructure.EfCore.csproj.AssemblyReference.cache
+G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\ShopManagement.Infrastructure.EfCore\obj\Debug\net5.0\ShopManagement.Infrastructure.EfCore.GeneratedMSBuildEditorConfig.editorconfig
+G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\ShopManagement.Infrastructure.EfCore\obj\Debug\net5.0\ShopManagement.Infrastructure.EfCore.AssemblyInfoInputs.cache
+G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\ShopManagement.Infrastructure.EfCore\obj\Debug\net5.0\ShopManagement.Infrastructure.EfCore.AssemblyInfo.cs
+G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\ShopManagement.Infrastructure.EfCore\obj\Debug\net5.0\ShopManagement.Infrastructure.EfCore.csproj.CoreCompileInputs.cache
 G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\ShopManagement.Infrastructure.EfCore\bin\Debug\net5.0\ShopManagement.Infrastructure.EfCore.deps.json
 G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\ShopManagement.Infrastructure.EfCore\bin\Debug\net5.0\ShopManagement.Infrastructure.EfCore.runtimeconfig.json
 G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\ShopManagement.Infrastructure.EfCore\bin\Debug\net5.0\ShopManagement.Infrastructure.EfCore.runtimeconfig.dev.json
@@ -10,11 +15,6 @@ G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\ShopManagement.Infrastru
 G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\ShopManagement.Infrastructure.EfCore\bin\Debug\net5.0\ShopManagement.Domain.pdb
 G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\ShopManagement.Infrastructure.EfCore\bin\Debug\net5.0\0_Framework.pdb
 G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\ShopManagement.Infrastructure.EfCore\bin\Debug\net5.0\ShopManagement.Application.Contracts.pdb
-G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\ShopManagement.Infrastructure.EfCore\obj\Debug\net5.0\ShopManagement.Infrastructure.EfCore.csproj.AssemblyReference.cache
-G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\ShopManagement.Infrastructure.EfCore\obj\Debug\net5.0\ShopManagement.Infrastructure.EfCore.GeneratedMSBuildEditorConfig.editorconfig
-G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\ShopManagement.Infrastructure.EfCore\obj\Debug\net5.0\ShopManagement.Infrastructure.EfCore.AssemblyInfoInputs.cache
-G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\ShopManagement.Infrastructure.EfCore\obj\Debug\net5.0\ShopManagement.Infrastructure.EfCore.AssemblyInfo.cs
-G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\ShopManagement.Infrastructure.EfCore\obj\Debug\net5.0\ShopManagement.Infrastructure.EfCore.csproj.CoreCompileInputs.cache
 G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\ShopManagement.Infrastructure.EfCore\obj\Debug\net5.0\ShopManagement.Infrastructure.EfCore.csproj.CopyComplete
 G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\ShopManagement.Infrastructure.EfCore\obj\Debug\net5.0\ShopManagement.Infrastructure.EfCore.dll
 G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\ShopManagement.Infrastructure.EfCore\obj\Debug\net5.0\ref\ShopManagement.Infrastructure.EfCore.dll

@@ -1,4 +1,5 @@
 ﻿using _0_Framework.Domain;
+using Microsoft.AspNetCore.Http;
 using ShopManagement.Domain.ProductAgg;
 
 namespace ShopManagement.Domain.ProductPictureAgg

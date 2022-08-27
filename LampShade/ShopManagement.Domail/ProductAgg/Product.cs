@@ -21,7 +21,7 @@ namespace ShopManagement.Domain.ProductAgg
         public string MetaDescription { get; private set; }
         public ProductCategory Category { get; private set; }
 
-        public bool IsInStock { get; private set; }
+       
         public List<ProductPicture> ProductPictures { get; private set; }
 
         public Product(string name, string code, string shortDescription, string description,
@@ -39,7 +39,7 @@ namespace ShopManagement.Domain.ProductAgg
             Slug = slug;
             Keywords = keywords;
             MetaDescription = metaDescription;
-            IsInStock = true;
+            
         }
 
         public void Edit(string name, string code, string shortDescription, string description, string picture,
@@ -62,13 +62,6 @@ namespace ShopManagement.Domain.ProductAgg
             MetaDescription = metaDescription;
         }
 
-        public void InStock()
-        {
-            IsInStock = true;
-        }
-        public void NotInStock()
-        {
-            IsInStock = false;
-        }
+      
     }
 }

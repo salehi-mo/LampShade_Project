@@ -26,8 +26,7 @@ namespace ShopManagement.Infrastructure.EFCore.Repository
                     Id = x.Id,
                     PictureAlt = x.PictureAlt,
                     PictureTitle = x.PictureTitle,
-                    ProductId = x.ProductId,
-                    Picture = x.Picture
+                    ProductId = x.ProductId
                 }).FirstOrDefault(x => x.Id == id);
         }
 

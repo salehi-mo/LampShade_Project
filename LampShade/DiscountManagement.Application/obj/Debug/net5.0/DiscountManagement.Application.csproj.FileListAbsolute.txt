@@ -1,3 +1,7 @@
+G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\DiscountManagement.Application\obj\Debug\net5.0\DiscountManagement.Application.GeneratedMSBuildEditorConfig.editorconfig
+G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\DiscountManagement.Application\obj\Debug\net5.0\DiscountManagement.Application.AssemblyInfoInputs.cache
+G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\DiscountManagement.Application\obj\Debug\net5.0\DiscountManagement.Application.AssemblyInfo.cs
+G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\DiscountManagement.Application\obj\Debug\net5.0\DiscountManagement.Application.csproj.CoreCompileInputs.cache
 G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\DiscountManagement.Application\bin\Debug\net5.0\DiscountManagement.Application.deps.json
 G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\DiscountManagement.Application\bin\Debug\net5.0\DiscountManagement.Application.dll
 G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\DiscountManagement.Application\bin\Debug\net5.0\ref\DiscountManagement.Application.dll
@@ -11,10 +15,6 @@ G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\DiscountManagement.Appli
 G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\DiscountManagement.Application\bin\Debug\net5.0\0_Framework.pdb
 G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\DiscountManagement.Application\bin\Debug\net5.0\ShopManagement.Application.Contracts.pdb
 G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\DiscountManagement.Application\obj\Debug\net5.0\DiscountManagement.Application.csproj.AssemblyReference.cache
-G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\DiscountManagement.Application\obj\Debug\net5.0\DiscountManagement.Application.GeneratedMSBuildEditorConfig.editorconfig
-G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\DiscountManagement.Application\obj\Debug\net5.0\DiscountManagement.Application.AssemblyInfoInputs.cache
-G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\DiscountManagement.Application\obj\Debug\net5.0\DiscountManagement.Application.AssemblyInfo.cs
-G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\DiscountManagement.Application\obj\Debug\net5.0\DiscountManagement.Application.csproj.CoreCompileInputs.cache
 G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\DiscountManagement.Application\obj\Debug\net5.0\DiscountManagement.Application.csproj.CopyComplete
 G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\DiscountManagement.Application\obj\Debug\net5.0\DiscountManagement.Application.dll
 G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\DiscountManagement.Application\obj\Debug\net5.0\ref\DiscountManagement.Application.dll

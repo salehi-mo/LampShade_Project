@@ -1,8 +1,4 @@
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Security.Cryptography.X509Certificates;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using ShopManagement.Application.Contracts.ProductCategory;
@@ -27,11 +23,7 @@ namespace ServiceHost.Areas.Administration.Pages.Shop.ProductCategories
         {
             ProductCategories = _productCategoryApplication.Search(searchModel);
         }
-
        
-        
-        
-        
         public IActionResult OnGetCreate()
         {
             return Partial("./Create", new CreateProductCategory());

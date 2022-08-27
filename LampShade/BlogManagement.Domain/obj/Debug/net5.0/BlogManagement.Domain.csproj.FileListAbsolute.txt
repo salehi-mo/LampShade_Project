@@ -1,0 +1,17 @@
+G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\BlogManagement.Domain\obj\Debug\net5.0\BlogManagement.Domain.GeneratedMSBuildEditorConfig.editorconfig
+G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\BlogManagement.Domain\obj\Debug\net5.0\BlogManagement.Domain.AssemblyInfoInputs.cache
+G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\BlogManagement.Domain\obj\Debug\net5.0\BlogManagement.Domain.AssemblyInfo.cs
+G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\BlogManagement.Domain\obj\Debug\net5.0\BlogManagement.Domain.csproj.CoreCompileInputs.cache
+G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\BlogManagement.Domain\obj\Debug\net5.0\BlogManagement.Domain.csproj.AssemblyReference.cache
+G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\BlogManagement.Domain\bin\Debug\net5.0\BlogManagement.Domain.deps.json
+G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\BlogManagement.Domain\bin\Debug\net5.0\BlogManagement.Domain.dll
+G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\BlogManagement.Domain\bin\Debug\net5.0\ref\BlogManagement.Domain.dll
+G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\BlogManagement.Domain\bin\Debug\net5.0\BlogManagement.Domain.pdb
+G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\BlogManagement.Domain\bin\Debug\net5.0\0_Framework.dll
+G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\BlogManagement.Domain\bin\Debug\net5.0\BlogManagement.Application.Contracts.dll
+G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\BlogManagement.Domain\bin\Debug\net5.0\0_Framework.pdb
+G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\BlogManagement.Domain\bin\Debug\net5.0\BlogManagement.Application.Contracts.pdb
+G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\BlogManagement.Domain\obj\Debug\net5.0\BlogManagement.Domain.csproj.CopyComplete
+G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\BlogManagement.Domain\obj\Debug\net5.0\BlogManagement.Domain.dll
+G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\BlogManagement.Domain\obj\Debug\net5.0\ref\BlogManagement.Domain.dll
+G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\BlogManagement.Domain\obj\Debug\net5.0\BlogManagement.Domain.pdb

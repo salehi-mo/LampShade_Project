@@ -1,4 +1,3 @@
-G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\InventoryMangement.Infrastructure.EFCore\obj\Debug\net5.0\InventoryManagement.Infrastructure.EFCore.csproj.AssemblyReference.cache
 G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\InventoryMangement.Infrastructure.EFCore\obj\Debug\net5.0\InventoryManagement.Infrastructure.EFCore.GeneratedMSBuildEditorConfig.editorconfig
 G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\InventoryMangement.Infrastructure.EFCore\obj\Debug\net5.0\InventoryManagement.Infrastructure.EFCore.AssemblyInfoInputs.cache
 G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\InventoryMangement.Infrastructure.EFCore\obj\Debug\net5.0\InventoryManagement.Infrastructure.EFCore.AssemblyInfo.cs
@@ -21,6 +20,7 @@ G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\InventoryMangement.Infra
 G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\InventoryMangement.Infrastructure.EFCore\bin\Debug\net5.0\InventoryManagement.Application.Contract.pdb
 G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\InventoryMangement.Infrastructure.EFCore\bin\Debug\net5.0\ShopManagement.Application.Contracts.pdb
 G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\InventoryMangement.Infrastructure.EFCore\bin\Debug\net5.0\ShopManagement.Domain.pdb
+G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\InventoryMangement.Infrastructure.EFCore\obj\Debug\net5.0\InventoryManagement.Infrastructure.EFCore.csproj.AssemblyReference.cache
 G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\InventoryMangement.Infrastructure.EFCore\obj\Debug\net5.0\InventoryManagement.Infrastructure.EFCore.csproj.CopyComplete
 G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\InventoryMangement.Infrastructure.EFCore\obj\Debug\net5.0\InventoryManagement.Infrastructure.EFCore.dll
 G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\InventoryMangement.Infrastructure.EFCore\obj\Debug\net5.0\ref\InventoryManagement.Infrastructure.EFCore.dll

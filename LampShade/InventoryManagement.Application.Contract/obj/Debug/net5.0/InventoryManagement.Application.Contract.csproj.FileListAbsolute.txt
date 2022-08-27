@@ -1,4 +1,3 @@
-G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\InventoryManagement.Application.Contract\obj\Debug\net5.0\InventoryManagement.Application.Contract.csproj.AssemblyReference.cache
 G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\InventoryManagement.Application.Contract\obj\Debug\net5.0\InventoryManagement.Application.Contract.GeneratedMSBuildEditorConfig.editorconfig
 G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\InventoryManagement.Application.Contract\obj\Debug\net5.0\InventoryManagement.Application.Contract.AssemblyInfoInputs.cache
 G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\InventoryManagement.Application.Contract\obj\Debug\net5.0\InventoryManagement.Application.Contract.AssemblyInfo.cs
@@ -15,3 +14,4 @@ G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\InventoryManagement.Appl
 G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\InventoryManagement.Application.Contract\obj\Debug\net5.0\InventoryManagement.Application.Contract.dll
 G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\InventoryManagement.Application.Contract\obj\Debug\net5.0\ref\InventoryManagement.Application.Contract.dll
 G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\InventoryManagement.Application.Contract\obj\Debug\net5.0\InventoryManagement.Application.Contract.pdb
+G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\InventoryManagement.Application.Contract\obj\Debug\net5.0\InventoryManagement.Application.Contract.csproj.AssemblyReference.cache

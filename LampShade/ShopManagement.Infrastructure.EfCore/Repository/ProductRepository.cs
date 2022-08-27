@@ -30,7 +30,6 @@ namespace ShopManagement.Infrastructure.EFCore.Repository
                 Description = x.Description,
                 Keywords = x.Keywords,
                 MetaDescription = x.MetaDescription,
-                Picture =  x.Picture,
                 PictureAlt = x.PictureAlt,
                 PictureTitle = x.PictureTitle,
                 ShortDescription = x.ShortDescription,
@@ -63,7 +62,6 @@ namespace ShopManagement.Infrastructure.EFCore.Repository
                     CategoryId = x.CategoryId,
                     Code = x.Code,
                     Picture = x.Picture,
-                    IsInStock = x.IsInStock,
                     CreationDate = x.CreationDate.ToFarsi()
                 });
 

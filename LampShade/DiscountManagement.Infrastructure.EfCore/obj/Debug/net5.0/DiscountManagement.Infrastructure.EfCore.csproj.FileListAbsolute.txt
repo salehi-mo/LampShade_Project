@@ -1,3 +1,7 @@
+G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\DiscountManagement.Infrastructure.EfCore\obj\Debug\net5.0\DiscountManagement.Infrastructure.EfCore.GeneratedMSBuildEditorConfig.editorconfig
+G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\DiscountManagement.Infrastructure.EfCore\obj\Debug\net5.0\DiscountManagement.Infrastructure.EfCore.AssemblyInfoInputs.cache
+G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\DiscountManagement.Infrastructure.EfCore\obj\Debug\net5.0\DiscountManagement.Infrastructure.EfCore.AssemblyInfo.cs
+G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\DiscountManagement.Infrastructure.EfCore\obj\Debug\net5.0\DiscountManagement.Infrastructure.EfCore.csproj.CoreCompileInputs.cache
 G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\DiscountManagement.Infrastructure.EfCore\bin\Debug\net5.0\DiscountManagement.Infrastructure.EfCore.deps.json
 G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\DiscountManagement.Infrastructure.EfCore\bin\Debug\net5.0\DiscountManagement.Infrastructure.EfCore.runtimeconfig.json
 G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\DiscountManagement.Infrastructure.EfCore\bin\Debug\net5.0\DiscountManagement.Infrastructure.EfCore.runtimeconfig.dev.json
@@ -17,10 +21,6 @@ G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\DiscountManagement.Infra
 G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\DiscountManagement.Infrastructure.EfCore\bin\Debug\net5.0\ShopManagement.Application.Contracts.pdb
 G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\DiscountManagement.Infrastructure.EfCore\bin\Debug\net5.0\ShopManagement.Domain.pdb
 G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\DiscountManagement.Infrastructure.EfCore\obj\Debug\net5.0\DiscountManagement.Infrastructure.EfCore.csproj.AssemblyReference.cache
-G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\DiscountManagement.Infrastructure.EfCore\obj\Debug\net5.0\DiscountManagement.Infrastructure.EfCore.GeneratedMSBuildEditorConfig.editorconfig
-G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\DiscountManagement.Infrastructure.EfCore\obj\Debug\net5.0\DiscountManagement.Infrastructure.EfCore.AssemblyInfoInputs.cache
-G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\DiscountManagement.Infrastructure.EfCore\obj\Debug\net5.0\DiscountManagement.Infrastructure.EfCore.AssemblyInfo.cs
-G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\DiscountManagement.Infrastructure.EfCore\obj\Debug\net5.0\DiscountManagement.Infrastructure.EfCore.csproj.CoreCompileInputs.cache
 G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\DiscountManagement.Infrastructure.EfCore\obj\Debug\net5.0\DiscountManagement.Infrastructure.EfCore.csproj.CopyComplete
 G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\DiscountManagement.Infrastructure.EfCore\obj\Debug\net5.0\DiscountManagement.Infrastructure.EfCore.dll
 G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\DiscountManagement.Infrastructure.EfCore\obj\Debug\net5.0\ref\DiscountManagement.Infrastructure.EfCore.dll

@@ -1,0 +1,17 @@
+G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\CommentManagement.Domain\obj\Debug\net5.0\CommentManagement.Domain.GeneratedMSBuildEditorConfig.editorconfig
+G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\CommentManagement.Domain\obj\Debug\net5.0\CommentManagement.Domain.AssemblyInfoInputs.cache
+G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\CommentManagement.Domain\obj\Debug\net5.0\CommentManagement.Domain.AssemblyInfo.cs
+G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\CommentManagement.Domain\obj\Debug\net5.0\CommentManagement.Domain.csproj.CoreCompileInputs.cache
+G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\CommentManagement.Domain\bin\Debug\net5.0\CommentManagement.Domain.deps.json
+G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\CommentManagement.Domain\bin\Debug\net5.0\CommentManagement.Domain.dll
+G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\CommentManagement.Domain\bin\Debug\net5.0\ref\CommentManagement.Domain.dll
+G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\CommentManagement.Domain\bin\Debug\net5.0\CommentManagement.Domain.pdb
+G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\CommentManagement.Domain\bin\Debug\net5.0\0_Framework.dll
+G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\CommentManagement.Domain\bin\Debug\net5.0\CommentManagement.Application.Contracts.dll
+G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\CommentManagement.Domain\bin\Debug\net5.0\0_Framework.pdb
+G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\CommentManagement.Domain\bin\Debug\net5.0\CommentManagement.Application.Contracts.pdb
+G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\CommentManagement.Domain\obj\Debug\net5.0\CommentManagement.Domain.csproj.AssemblyReference.cache
+G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\CommentManagement.Domain\obj\Debug\net5.0\CommentManagement.Domain.csproj.CopyComplete
+G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\CommentManagement.Domain\obj\Debug\net5.0\CommentManagement.Domain.dll
+G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\CommentManagement.Domain\obj\Debug\net5.0\ref\CommentManagement.Domain.dll
+G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\CommentManagement.Domain\obj\Debug\net5.0\CommentManagement.Domain.pdb
