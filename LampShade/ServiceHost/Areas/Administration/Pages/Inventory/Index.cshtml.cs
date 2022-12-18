@@ -6,11 +6,14 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using ShopManagement.Application.Contracts.Product;
 using System.Collections.Generic;
+using InventoryManagement.Infrastructure.Configuration.Permissions;
+
 //using InventoryManagement.Infrastructure.Configuration.Permissions;
 
 namespace ServiceHost.Areas.Administration.Pages.Inventory
 {
     //[Authorize(Roles = Roles.Administrator)]
+   
     public class IndexModel : PageModel
     {
         [TempData] public string Message { get; set; }

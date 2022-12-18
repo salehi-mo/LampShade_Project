@@ -33,5 +33,10 @@ namespace _0_Framework.Application
             var random = new Random();
             return random.Next(100, 999).ToString();
         }
+        public static string RandomNumberForSms()
+        {
+            var random = new Random();
+            return random.Next(100000, 999999).ToString();
+        }
     }
 }

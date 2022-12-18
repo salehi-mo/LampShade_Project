@@ -1,7 +1,3 @@
-G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\AccountManagement.Application\obj\Debug\net5.0\AccountManagement.Application.GeneratedMSBuildEditorConfig.editorconfig
-G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\AccountManagement.Application\obj\Debug\net5.0\AccountManagement.Application.AssemblyInfoInputs.cache
-G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\AccountManagement.Application\obj\Debug\net5.0\AccountManagement.Application.AssemblyInfo.cs
-G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\AccountManagement.Application\obj\Debug\net5.0\AccountManagement.Application.csproj.CoreCompileInputs.cache
 G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\AccountManagement.Application\bin\Debug\net5.0\AccountManagement.Application.deps.json
 G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\AccountManagement.Application\bin\Debug\net5.0\AccountManagement.Application.dll
 G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\AccountManagement.Application\bin\Debug\net5.0\ref\AccountManagement.Application.dll
@@ -12,7 +8,10 @@ G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\AccountManagement.Applic
 G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\AccountManagement.Application\bin\Debug\net5.0\AccountManagement.Application.Contracts.pdb
 G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\AccountManagement.Application\bin\Debug\net5.0\AccountManagement.Domain.pdb
 G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\AccountManagement.Application\bin\Debug\net5.0\0_Framework.pdb
-G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\AccountManagement.Application\obj\Debug\net5.0\AccountManagement.Application.csproj.AssemblyReference.cache
+G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\AccountManagement.Application\obj\Debug\net5.0\AccountManagement.Application.GeneratedMSBuildEditorConfig.editorconfig
+G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\AccountManagement.Application\obj\Debug\net5.0\AccountManagement.Application.AssemblyInfoInputs.cache
+G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\AccountManagement.Application\obj\Debug\net5.0\AccountManagement.Application.AssemblyInfo.cs
+G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\AccountManagement.Application\obj\Debug\net5.0\AccountManagement.Application.csproj.CoreCompileInputs.cache
 G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\AccountManagement.Application\obj\Debug\net5.0\AccountManagement.Application.csproj.CopyComplete
 G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\AccountManagement.Application\obj\Debug\net5.0\AccountManagement.Application.dll
 G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\AccountManagement.Application\obj\Debug\net5.0\ref\AccountManagement.Application.dll

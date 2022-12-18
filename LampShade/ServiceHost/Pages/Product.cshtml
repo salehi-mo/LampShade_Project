@@ -160,6 +160,7 @@
                                         </p>
                                         @if (Model.Product.HasDiscount)
                                         {
+                                            @*<div class="product-countdown" data-countdown-verifysms="@Model.Product.DiscountExpireDate"></div>*@
                                             <div class="product-countdown" data-countdown="@Model.Product.DiscountExpireDate"></div>
                                         }
 

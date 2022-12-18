@@ -10,9 +10,13 @@ namespace AccountManagement.Application.Contracts.Account
         OperationResult Edit(EditAccount command);
         OperationResult ChangePassword(ChangePassword command);
         OperationResult Login(Login command);
+        OperationResult LoginFinal(Login command);
         EditAccount GetDetails(long id);
         List<AccountViewModel> Search(AccountSearchModel searchModel);
         void Logout();
         List<AccountViewModel> GetAccounts();
+        AccountViewModel GetAccountByRoles(string username);
+        AccountViewModel GetAccountByRoles(long id);
+        void DeleteAccountRoles(long accountId );
     }
 }

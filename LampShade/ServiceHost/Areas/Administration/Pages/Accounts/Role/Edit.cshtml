@@ -20,7 +20,7 @@
                                     </div>
                                 </div>
                                 <div class="col-md-6">
-                                    <label class="control-label col-md-3">انتخاب دسترسی ها</label>
+                                    <label class="control-label col-md-12">انتخاب دسترسی ها</label>
                                     <div class="col-md-12">
                                         <select asp-for="Command.Permissions" asp-items="Model.Permissions" class="multi-select" multiple="multiple" id="my_multi_select3">
 
@@ -54,9 +54,11 @@
             $('#my_multi_select3').multiSelect({
                 selectableOptgroup: true,
                 selectableHeader:
-                    "<input type='text' class='form-control search-input' autocomplete='off' placeholder='search...'>",
+                    
+                    "<label >فهرست دسترسی ها</label> <input type='text' class='form-control search-input' autocomplete='off' placeholder='جستجو ...'>",
                 selectionHeader:
-                    "<input type='text' class='form-control search-input' autocomplete='off' placeholder='search...'>",
+                    
+                    "<label >دسترسی های انتخاب شده</label> <input type='text' class='form-control search-input' autocomplete='off' placeholder='جستجو ...'>",
                 afterInit: function(ms) {
                     var that = this,
                         $selectableSearch = that.$selectableUl.prev(),

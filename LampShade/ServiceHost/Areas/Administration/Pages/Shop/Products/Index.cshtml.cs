@@ -5,6 +5,8 @@ using ShopManagement.Application.Contracts.Product;
 using ShopManagement.Application.Contracts.ProductCategory;
 using System.Collections.Generic;
 using _0_Framework.Infrastructure;
+using ShopManagement.Configuration.Permissions;
+
 //using ShopManagement.Configuration.Permissions;
 
 namespace ServiceHost.Areas.Administration.Pages.Shop.Products

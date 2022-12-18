@@ -49,9 +49,6 @@ namespace AccountMangement.Infrastructure.EFCore.Migrations
                         .HasColumnType("nvarchar(500)")
                         .HasMaxLength(500);
 
-                    b.Property<long>("RoleId")
-                        .HasColumnType("bigint");
-
                     b.Property<string>("Username")
                         .IsRequired()
                         .HasColumnType("nvarchar(100)")
@@ -59,9 +56,32 @@ namespace AccountMangement.Infrastructure.EFCore.Migrations
 
                     b.HasKey("Id");
 
+                    b.ToTable("Accounts");
+                });
+
+            modelBuilder.Entity("AccountManagement.Domain.AccountRoleAgg.AccountRole", b =>
+                {
+                    b.Property<long>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bigint")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<long>("AccountId")
+                        .HasColumnType("bigint");
+
+                    b.Property<DateTime>("CreationDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<long>("RoleId")
+                        .HasColumnType("bigint");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("AccountId");
+
                     b.HasIndex("RoleId");
 
-                    b.ToTable("Accounts");
+                    b.ToTable("AccountRoles");
                 });
 
             modelBuilder.Entity("AccountManagement.Domain.RoleAgg.Role", b =>
@@ -84,10 +104,16 @@ namespace AccountMangement.Infrastructure.EFCore.Migrations
                     b.ToTable("Roles");
                 });
 
-            modelBuilder.Entity("AccountManagement.Domain.AccountAgg.Account", b =>
+            modelBuilder.Entity("AccountManagement.Domain.AccountRoleAgg.AccountRole", b =>
                 {
+                    b.HasOne("AccountManagement.Domain.AccountAgg.Account", "Account")
+                        .WithMany("AccountRoles")
+                        .HasForeignKey("AccountId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.HasOne("AccountManagement.Domain.RoleAgg.Role", "Role")
-                        .WithMany("Accounts")
+                        .WithMany("AccountRoles")
                         .HasForeignKey("RoleId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();

@@ -7,10 +7,12 @@ namespace _0_Framework.Application
         void SignOut();
         bool IsAuthenticated();
         void Signin(AuthViewModel account);
-        string CurrentAccountRole();
+        List<long> CurrentAccountRole();
         AuthViewModel CurrentAccountInfo();
         List<int> GetPermissions();
         long CurrentAccountId();
         string CurrentAccountMobile();
+        string CurrentAccountUserName();
+
     }
 }

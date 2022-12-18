@@ -1,3 +1,6 @@
+﻿using System;
+using _0_Framework.Application;
+using _0_Framework.Application.Sms;
 using AccountManagement.Application.Contracts.Account;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
@@ -19,25 +22,36 @@ namespace ServiceHost.Pages
         public AccountModel(IAccountApplication accountApplication)
         {
             _accountApplication = accountApplication;
+ 
         }
 
         public void OnGet()
         {
+
+            TempData["msg"] = LoginMessage;
         }
 
         public IActionResult OnPostLogin(Login command)
         {
-            var result = _accountApplication.Login(command);
-            if (result.IsSuccedded)
-                return RedirectToPage("/Index");
+            if ((!string.IsNullOrWhiteSpace(command.Username)) && (!string.IsNullOrWhiteSpace(command.Password)))
+            {
+                var result = _accountApplication.Login(command);
+                if (result.IsSuccedded)
+                    return RedirectToPage("/AccountVerify");
 
-            LoginMessage = result.Message;
-            return RedirectToPage("/Account");
+                LoginMessage = result.Message;
+                return RedirectToPage("/Account");
+            }
+            else
+            {
+                return RedirectToPage("/Account");
+            }
         }
 
         public IActionResult OnGetLogout()
         {
             _accountApplication.Logout();
+            TempData["SmsCode"] = "";
             return RedirectToPage("/Index");
         }
 
@@ -49,5 +63,15 @@ namespace ServiceHost.Pages
             RegisterMessage = result.Message;
             return RedirectToPage("/Account");
         }
+        //public IActionResult OnPostVerifycode(Login command)
+        //{
+        //    if ((!string.IsNullOrWhiteSpace(command.Verifycode)))
+        //    {
+        //        if (TempData["SmsCode"] == command.Verifycode)
+        //            return RedirectToPage("/Index");
+        //    }
+
+        //    return RedirectToPage("/Index");
+        //}
     }
 }

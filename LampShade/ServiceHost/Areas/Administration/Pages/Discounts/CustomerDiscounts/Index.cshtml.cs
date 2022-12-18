@@ -6,6 +6,7 @@ using ShopManagement.Application.Contracts.ProductCategory;
 using System.Collections.Generic;
 using _0_Framework.Infrastructure;
 using DiscountManagement.Application.Contracts.CustomerDiscount;
+using ShopManagement.Configuration.Permissions;
 
 //using ShopManagement.Configuration.Permissions;
 

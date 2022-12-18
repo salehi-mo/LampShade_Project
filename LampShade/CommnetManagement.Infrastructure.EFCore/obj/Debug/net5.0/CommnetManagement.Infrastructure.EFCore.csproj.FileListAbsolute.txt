@@ -1,8 +1,3 @@
-G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\CommnetManagement.Infrastructure.EFCore\obj\Debug\net5.0\CommnetManagement.Infrastructure.EFCore.csproj.AssemblyReference.cache
-G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\CommnetManagement.Infrastructure.EFCore\obj\Debug\net5.0\CommnetManagement.Infrastructure.EFCore.GeneratedMSBuildEditorConfig.editorconfig
-G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\CommnetManagement.Infrastructure.EFCore\obj\Debug\net5.0\CommnetManagement.Infrastructure.EFCore.AssemblyInfoInputs.cache
-G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\CommnetManagement.Infrastructure.EFCore\obj\Debug\net5.0\CommnetManagement.Infrastructure.EFCore.AssemblyInfo.cs
-G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\CommnetManagement.Infrastructure.EFCore\obj\Debug\net5.0\CommnetManagement.Infrastructure.EFCore.csproj.CoreCompileInputs.cache
 G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\CommnetManagement.Infrastructure.EFCore\bin\Debug\net5.0\CommnetManagement.Infrastructure.EFCore.deps.json
 G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\CommnetManagement.Infrastructure.EFCore\bin\Debug\net5.0\CommnetManagement.Infrastructure.EFCore.runtimeconfig.json
 G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\CommnetManagement.Infrastructure.EFCore\bin\Debug\net5.0\CommnetManagement.Infrastructure.EFCore.runtimeconfig.dev.json
@@ -15,6 +10,11 @@ G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\CommnetManagement.Infras
 G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\CommnetManagement.Infrastructure.EFCore\bin\Debug\net5.0\CommentManagement.Domain.pdb
 G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\CommnetManagement.Infrastructure.EFCore\bin\Debug\net5.0\0_Framework.pdb
 G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\CommnetManagement.Infrastructure.EFCore\bin\Debug\net5.0\CommentManagement.Application.Contracts.pdb
+G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\CommnetManagement.Infrastructure.EFCore\obj\Debug\net5.0\CommnetManagement.Infrastructure.EFCore.csproj.AssemblyReference.cache
+G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\CommnetManagement.Infrastructure.EFCore\obj\Debug\net5.0\CommnetManagement.Infrastructure.EFCore.GeneratedMSBuildEditorConfig.editorconfig
+G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\CommnetManagement.Infrastructure.EFCore\obj\Debug\net5.0\CommnetManagement.Infrastructure.EFCore.AssemblyInfoInputs.cache
+G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\CommnetManagement.Infrastructure.EFCore\obj\Debug\net5.0\CommnetManagement.Infrastructure.EFCore.AssemblyInfo.cs
+G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\CommnetManagement.Infrastructure.EFCore\obj\Debug\net5.0\CommnetManagement.Infrastructure.EFCore.csproj.CoreCompileInputs.cache
 G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\CommnetManagement.Infrastructure.EFCore\obj\Debug\net5.0\CommnetManagement.Infrastructure.EFCore.csproj.CopyComplete
 G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\CommnetManagement.Infrastructure.EFCore\obj\Debug\net5.0\CommnetManagement.Infrastructure.EFCore.dll
 G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\CommnetManagement.Infrastructure.EFCore\obj\Debug\net5.0\ref\CommnetManagement.Infrastructure.EFCore.dll

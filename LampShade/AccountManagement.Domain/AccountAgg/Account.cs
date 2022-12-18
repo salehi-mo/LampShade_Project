@@ -1,4 +1,6 @@
-﻿using _0_Framework.Domain;
+﻿using System.Collections.Generic;
+using _0_Framework.Domain;
+using AccountManagement.Domain.AccountRoleAgg;
 using AccountManagement.Domain.RoleAgg;
 
 namespace AccountManagement.Domain.AccountAgg
@@ -9,32 +11,38 @@ namespace AccountManagement.Domain.AccountAgg
         public string Username { get; private set; }
         public string Password { get; private set; }
         public string Mobile { get; private set; }
-        public long RoleId { get; private set; }
-        public Role Role { get; private set; }
+       
+        //public List<Role> Roles { get; private set; }
         public string ProfilePhoto { get; private set; }
 
+        public List<AccountRole> AccountRoles { get; set; }
+
         public Account(string fullname, string username, string password, string mobile,
-            long roleId, string profilePhoto)
+             string profilePhoto)
         {
             Fullname = fullname;
             Username = username;
             Password = password;
             Mobile = mobile;
-            RoleId = roleId;
-
-            if (roleId == 0)
-                RoleId = 2;
-            
+            //Roles = new List<Role>();
+            AccountRoles = new List<AccountRole>();
             ProfilePhoto = profilePhoto;
         }
 
         public void Edit(string fullname, string username, string mobile,
-            long roleId, string profilePhoto)
+             string profilePhoto, List<AccountRole> accountRoles)
         {
-            Fullname = fullname;
-            Username = username;
-            Mobile = mobile;
-            RoleId = roleId;
+            if (!string.IsNullOrWhiteSpace(fullname))
+                Fullname = fullname;
+            
+            if (!string.IsNullOrWhiteSpace(username))
+                Username = username;
+
+            if (!string.IsNullOrWhiteSpace(mobile)) 
+                Mobile = mobile;
+
+            
+            AccountRoles = accountRoles;
 
             if (!string.IsNullOrWhiteSpace(profilePhoto))
                 ProfilePhoto = profilePhoto;

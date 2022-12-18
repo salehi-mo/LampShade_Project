@@ -401,7 +401,22 @@
 			$this.html(event.strftime('<div class="single-countdown"><span class="single-countdown-time">%D</span><span class="single-countdown-text">Days</span></div><div class="single-countdown"><span class="single-countdown-time">%H</span><span class="single-countdown-text">Hours</span></div><div class="single-countdown"><span class="single-countdown-time">%M</span><span class="single-countdown-text">Mins</span></div><div class="single-countdown"><span class="single-countdown-time">%S</span><span class="single-countdown-text">Secs</span></div>'));
 		});
 	});
-    
+
+    $('[data-countdown-verifysms]').each(function () {
+        var $this = $(this),
+            finalDate = $(this).data('countdown-verifysms');
+        $this.countdown(finalDate, function (event) {
+            $this.html(event.strftime(
+                '<div class="single-countdown">' +
+                '<span class="single-countdown-time">%M</span>' +
+                '<span class="single-countdown-text">Mins</span>' +
+                '</div>' +
+                '<div class="single-countdown">' +
+                '<span class="single-countdown-time">%S</span>' +
+                '<span class="single-countdown-text">Secs</span>' +
+                '</div>'));
+        });
+    });
     /*=====  End of countdown active  ======*/
     
 

@@ -5,6 +5,7 @@
         public long Id { get; private set; }
         public int Code { get; private set; }
         public string Name { get; private set; }
+        public string PersianName { get; private set; }
         public long RoleId { get; private set; }
         public Role Role { get; private set; }
 
@@ -13,10 +14,11 @@
             Code = code;
         }
 
-        public Permission(int code, string name)
+        public Permission(int code, string name,string persianName)
         {
             Code = code;
             Name = name;
+            PersianName = persianName;
         }
     }
 }

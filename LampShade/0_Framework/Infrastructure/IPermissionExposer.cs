@@ -4,6 +4,6 @@ namespace _0_Framework.Infrastructure
 {
     public interface IPermissionExposer
     {
-        Dictionary<string, List<PermissionDto>> Expose();
+        Dictionary< List<string> , List<PermissionDto>> Expose();
     }
 }

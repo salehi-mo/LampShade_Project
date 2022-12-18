@@ -10,7 +10,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using _0_Framework.Infrastructure;
 using DiscountManagement.Application.Contracts.ColleagueDiscount;
+using DiscountManagement.Configuration.Permissions;
 using DiscountManagement.Domain.ColleagueDiscountAgg;
 
 namespace DiscountManagement.Configuration
@@ -24,7 +26,7 @@ namespace DiscountManagement.Configuration
 
             services.AddTransient<IColleagueDiscountApplication, ColleagueDiscountApplication>();
             services.AddTransient<IColleagueDiscountRepository, ColleagueDiscountRepository>();
-
+            services.AddTransient<IPermissionExposer, DiscountPermissionExposer>();
 
             services.AddDbContext<DiscountContext>(x => x.UseSqlServer(connectionString, b => b.MigrationsAssembly("DiscountManagement.Infrastructure.EfCore")));
         }

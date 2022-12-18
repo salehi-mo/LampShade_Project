@@ -1,5 +1,6 @@
 ﻿using _0_Framework.Domain;
 using AccountManagement.Domain.AccountAgg;
+using AccountManagement.Domain.AccountRoleAgg;
 using System.Collections.Generic;
 
 namespace AccountManagement.Domain.RoleAgg
@@ -8,7 +9,8 @@ namespace AccountManagement.Domain.RoleAgg
     {
         public string Name { get; private set; }
         public List<Permission> Permissions { get; private set; }
-        public List<Account> Accounts { get; private set; }
+        //public List<Account> Accounts { get; private set; }
+        public List<AccountRole> AccountRoles { get; private set; }
 
         protected Role()
         {
@@ -18,7 +20,7 @@ namespace AccountManagement.Domain.RoleAgg
         {
             Name = name;
             Permissions = permissions;
-            Accounts = new List<Account>();
+            //Accounts = new List<Account>();
         }
 
         public void Edit(string name, List<Permission> permissions)

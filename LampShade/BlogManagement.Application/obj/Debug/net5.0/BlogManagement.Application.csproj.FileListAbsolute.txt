@@ -1,7 +1,3 @@
-G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\BlogManagement.Application\obj\Debug\net5.0\BlogManagement.Application.GeneratedMSBuildEditorConfig.editorconfig
-G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\BlogManagement.Application\obj\Debug\net5.0\BlogManagement.Application.AssemblyInfoInputs.cache
-G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\BlogManagement.Application\obj\Debug\net5.0\BlogManagement.Application.AssemblyInfo.cs
-G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\BlogManagement.Application\obj\Debug\net5.0\BlogManagement.Application.csproj.CoreCompileInputs.cache
 G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\BlogManagement.Application\bin\Debug\net5.0\BlogManagement.Application.deps.json
 G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\BlogManagement.Application\bin\Debug\net5.0\BlogManagement.Application.dll
 G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\BlogManagement.Application\bin\Debug\net5.0\ref\BlogManagement.Application.dll
@@ -12,6 +8,10 @@ G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\BlogManagement.Applicati
 G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\BlogManagement.Application\bin\Debug\net5.0\BlogManagement.Application.Contracts.pdb
 G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\BlogManagement.Application\bin\Debug\net5.0\BlogManagement.Domain.pdb
 G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\BlogManagement.Application\bin\Debug\net5.0\0_Framework.pdb
+G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\BlogManagement.Application\obj\Debug\net5.0\BlogManagement.Application.GeneratedMSBuildEditorConfig.editorconfig
+G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\BlogManagement.Application\obj\Debug\net5.0\BlogManagement.Application.AssemblyInfoInputs.cache
+G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\BlogManagement.Application\obj\Debug\net5.0\BlogManagement.Application.AssemblyInfo.cs
+G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\BlogManagement.Application\obj\Debug\net5.0\BlogManagement.Application.csproj.CoreCompileInputs.cache
 G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\BlogManagement.Application\obj\Debug\net5.0\BlogManagement.Application.csproj.CopyComplete
 G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\BlogManagement.Application\obj\Debug\net5.0\BlogManagement.Application.dll
 G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\BlogManagement.Application\obj\Debug\net5.0\ref\BlogManagement.Application.dll

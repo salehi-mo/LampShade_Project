@@ -1,7 +1,3 @@
-G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\ShopManagement.Application\obj\Debug\net5.0\ShopManagement.Application.GeneratedMSBuildEditorConfig.editorconfig
-G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\ShopManagement.Application\obj\Debug\net5.0\ShopManagement.Application.AssemblyInfoInputs.cache
-G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\ShopManagement.Application\obj\Debug\net5.0\ShopManagement.Application.AssemblyInfo.cs
-G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\ShopManagement.Application\obj\Debug\net5.0\ShopManagement.Application.csproj.CoreCompileInputs.cache
 G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\ShopManagement.Application\bin\Debug\net5.0\ShopManagement.Application.deps.json
 G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\ShopManagement.Application\bin\Debug\net5.0\ShopManagement.Application.dll
 G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\ShopManagement.Application\bin\Debug\net5.0\ref\ShopManagement.Application.dll
@@ -12,6 +8,10 @@ G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\ShopManagement.Applicati
 G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\ShopManagement.Application\bin\Debug\net5.0\ShopManagement.Application.Contracts.pdb
 G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\ShopManagement.Application\bin\Debug\net5.0\ShopManagement.Domain.pdb
 G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\ShopManagement.Application\bin\Debug\net5.0\0_Framework.pdb
+G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\ShopManagement.Application\obj\Debug\net5.0\ShopManagement.Application.GeneratedMSBuildEditorConfig.editorconfig
+G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\ShopManagement.Application\obj\Debug\net5.0\ShopManagement.Application.AssemblyInfoInputs.cache
+G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\ShopManagement.Application\obj\Debug\net5.0\ShopManagement.Application.AssemblyInfo.cs
+G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\ShopManagement.Application\obj\Debug\net5.0\ShopManagement.Application.csproj.CoreCompileInputs.cache
 G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\ShopManagement.Application\obj\Debug\net5.0\ShopManagement.Application.csproj.CopyComplete
 G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\ShopManagement.Application\obj\Debug\net5.0\ShopManagement.Application.dll
 G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\ShopManagement.Application\obj\Debug\net5.0\ref\ShopManagement.Application.dll

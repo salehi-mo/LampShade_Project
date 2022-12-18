@@ -1,7 +1,3 @@
-G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\DiscountManagement.Domain\obj\Debug\net5.0\DiscountManagement.Domain.GeneratedMSBuildEditorConfig.editorconfig
-G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\DiscountManagement.Domain\obj\Debug\net5.0\DiscountManagement.Domain.AssemblyInfoInputs.cache
-G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\DiscountManagement.Domain\obj\Debug\net5.0\DiscountManagement.Domain.AssemblyInfo.cs
-G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\DiscountManagement.Domain\obj\Debug\net5.0\DiscountManagement.Domain.csproj.CoreCompileInputs.cache
 G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\DiscountManagement.Domain\bin\Debug\net5.0\DiscountManagement.Domain.deps.json
 G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\DiscountManagement.Domain\bin\Debug\net5.0\DiscountManagement.Domain.dll
 G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\DiscountManagement.Domain\bin\Debug\net5.0\ref\DiscountManagement.Domain.dll
@@ -13,6 +9,10 @@ G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\DiscountManagement.Domai
 G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\DiscountManagement.Domain\bin\Debug\net5.0\DiscountManagement.Application.Contracts.pdb
 G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\DiscountManagement.Domain\bin\Debug\net5.0\ShopManagement.Application.Contracts.pdb
 G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\DiscountManagement.Domain\obj\Debug\net5.0\DiscountManagement.Domain.csproj.AssemblyReference.cache
+G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\DiscountManagement.Domain\obj\Debug\net5.0\DiscountManagement.Domain.GeneratedMSBuildEditorConfig.editorconfig
+G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\DiscountManagement.Domain\obj\Debug\net5.0\DiscountManagement.Domain.AssemblyInfoInputs.cache
+G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\DiscountManagement.Domain\obj\Debug\net5.0\DiscountManagement.Domain.AssemblyInfo.cs
+G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\DiscountManagement.Domain\obj\Debug\net5.0\DiscountManagement.Domain.csproj.CoreCompileInputs.cache
 G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\DiscountManagement.Domain\obj\Debug\net5.0\DiscountManagement.Domain.csproj.CopyComplete
 G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\DiscountManagement.Domain\obj\Debug\net5.0\DiscountManagement.Domain.dll
 G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\DiscountManagement.Domain\obj\Debug\net5.0\ref\DiscountManagement.Domain.dll

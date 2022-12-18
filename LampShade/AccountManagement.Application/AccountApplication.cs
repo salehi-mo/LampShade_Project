@@ -2,8 +2,10 @@
 using AccountManagement.Application.Contracts.Account;
 using AccountManagement.Domain.AccountAgg;
 using System.Collections.Generic;
+using System.ComponentModel.Design;
 using System.Linq;
 using AccountManagement.Domain.RoleAgg;
+using AccountManagement.Domain.AccountRoleAgg;
 
 namespace AccountManagement.Application
 {
@@ -61,7 +63,7 @@ namespace AccountManagement.Application
             var password = _passwordHasher.Hash(command.Password);
             var path = $"profilePhotos";
             var picturePath = _fileUploader.Upload(command.ProfilePhoto, path);
-            var account = new Account(command.Fullname, command.Username, password, command.Mobile, command.RoleId,
+            var account = new Account(command.Fullname, command.Username, password, command.Mobile, 
                 picturePath);
             _accountRepository.Create(account);
             _accountRepository.SaveChanges();
@@ -81,7 +83,20 @@ namespace AccountManagement.Application
 
             var path = $"profilePhotos";
             var picturePath = _fileUploader.Upload(command.ProfilePhoto, path);
-            account.Edit(command.Fullname, command.Username, command.Mobile, command.RoleId, picturePath);
+
+            //var accountRoles = new List<AccountRole>();
+            //if (command.Roles.Count > 0)
+            //    foreach (var role in command.Roles)
+            //    {
+            //        var accountrole = new AccountRole(command.Id,role);
+            //        accountRoles.Add(accountrole);
+            //    }
+
+            var accountRoles = new List<AccountRole>();
+            command.Roles.ForEach(x => accountRoles.Add(new AccountRole(command.Id, x)));
+            _accountRepository.DeleteAccountRoles(command.Id);
+
+            account.Edit(command.Fullname, command.Username, command.Mobile,  picturePath, accountRoles);
             _accountRepository.SaveChanges();
             return operation.Succedded();
         }
@@ -94,7 +109,7 @@ namespace AccountManagement.Application
         public OperationResult Login(Login command)
         {
             var operation = new OperationResult();
-            var account = _accountRepository.GetBy(command.Username);
+            var account = _accountRepository.GetAccountByRoles(command.Username);
             if (account == null)
                 return operation.Failed(ApplicationMessages.WrongUserPass);
 
@@ -102,13 +117,28 @@ namespace AccountManagement.Application
             if (!result.Verified)
                 return operation.Failed(ApplicationMessages.WrongUserPass);
 
-            var permissions = _roleRepository.Get(account.RoleId)
-                .Permissions
-                .Select(x => x.Code)
-                .ToList();
+           
+            var permissions = new List<int>();
+            var roleNames = new List<string>();
+            var roleIds = new List<long>();
+            foreach (var role in account.Roles)
+            {
+                var permission = _roleRepository.Get(role)
+                        .Permissions
+                        .Select(x => x.Code)
+                        .ToList();
+                permissions.AddRange(permission);
+                roleNames.Add(_roleRepository.Get(role).Name);
+                roleIds.Add(_roleRepository.Get(role).Id);
+            }
 
-            var authViewModel = new AuthViewModel(account.Id, account.RoleId, account.Fullname
-                , account.Username, account.Mobile, permissions);
+            if(string.IsNullOrWhiteSpace(command.Verifycode))
+                permissions = new List<int>();
+
+
+            var authViewModel = new AuthViewModel(account.Id,  roleNames,roleIds, account.Fullname
+                , account.Username, account.Mobile, account.ProfilePhoto, permissions);
+
 
             _authHelper.Signin(authViewModel);
             return operation.Succedded();
@@ -128,5 +158,54 @@ namespace AccountManagement.Application
         {
             return _accountRepository.Search(searchModel);
         }
-    }
+
+        public AccountViewModel GetAccountByRoles(string username)
+        {
+            return _accountRepository.GetAccountByRoles(username);
+        }
+
+        public AccountViewModel GetAccountByRoles(long id)
+        {
+            return _accountRepository.GetAccountByRoles(id);
+        }
+
+        public void DeleteAccountRoles(long accountId)
+        {
+             _accountRepository.DeleteAccountRoles(accountId);
+        }
+
+        public OperationResult LoginFinal(Login command)
+        {
+            var operation = new OperationResult();
+            var account = _accountRepository.GetAccountByRoles(command.Username);
+            if (account == null)
+                return operation.Failed(ApplicationMessages.WrongUserPass);
+           
+
+            var permissions = new List<int>();
+            var roleNames = new List<string>();
+            var roleIds = new List<long>();
+            foreach (var role in account.Roles)
+            {
+                var permission = _roleRepository.Get(role)
+                    .Permissions
+                    .Select(x => x.Code)
+                    .ToList();
+                permissions.AddRange(permission);
+                roleNames.Add(_roleRepository.Get(role).Name);
+                roleIds.Add(_roleRepository.Get(role).Id);
+            }
+
+            if (string.IsNullOrWhiteSpace(command.Verifycode))
+                permissions = new List<int>();
+
+
+            var authViewModel = new AuthViewModel(account.Id, roleNames, roleIds, account.Fullname
+                , account.Username, account.Mobile, account.ProfilePhoto, permissions);
+
+
+            _authHelper.Signin(authViewModel);
+            return operation.Succedded();
+        }
+    } 
 }

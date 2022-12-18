@@ -30,10 +30,10 @@ namespace ServiceHost.Areas.Administration.Pages.Accounts.Role
                 var exposedPermissions = exposer.Expose();
                 foreach (var (key, value) in exposedPermissions)
                 {
-                    var group = new SelectListGroup {Name = key};
+                    var group = new SelectListGroup {Name = key[0] + "[" + key[1] + "]"};
                     foreach (var permission in value)
                     {
-                        var item = new SelectListItem(permission.Name, permission.Code.ToString())
+                        var item = new SelectListItem(permission.PersianName, permission.Code.ToString())
                         {
                             Group = group
                         };

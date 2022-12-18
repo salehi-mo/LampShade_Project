@@ -32,10 +32,11 @@ namespace ServiceHost.Areas.Administration.Pages.Accounts.Account
 
         public IActionResult OnGetCreate()
         {
-            var command = new RegisterAccount
-            {
-                Roles = _roleApplication.List()
-            };
+            var command = new RegisterAccount();
+            //{
+            //    Roles = _roleApplication.List()
+
+            //};
             return Partial("./Create", command);
         }
 
@@ -48,7 +49,7 @@ namespace ServiceHost.Areas.Administration.Pages.Accounts.Account
         public IActionResult OnGetEdit(long id)
         {
             var account = _accountApplication.GetDetails(id);
-            account.Roles = _roleApplication.List();
+            //account.Roles = _roleApplication.List();
             return Partial("Edit", account);
         }
 

@@ -1,12 +1,11 @@
-G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\01_LampShadeQuery\obj\Debug\net5.0\01_LampShadeQuery.GeneratedMSBuildEditorConfig.editorconfig
-G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\01_LampShadeQuery\obj\Debug\net5.0\01_LampShadeQuery.AssemblyInfoInputs.cache
-G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\01_LampShadeQuery\obj\Debug\net5.0\01_LampShadeQuery.AssemblyInfo.cs
-G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\01_LampShadeQuery\obj\Debug\net5.0\01_LampShadeQuery.csproj.CoreCompileInputs.cache
 G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\01_LampShadeQuery\bin\Debug\net5.0\01_LampShadeQuery.deps.json
 G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\01_LampShadeQuery\bin\Debug\net5.0\01_LampShadeQuery.dll
 G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\01_LampShadeQuery\bin\Debug\net5.0\ref\01_LampShadeQuery.dll
 G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\01_LampShadeQuery\bin\Debug\net5.0\01_LampShadeQuery.pdb
 G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\01_LampShadeQuery\bin\Debug\net5.0\0_Framework.dll
+G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\01_LampShadeQuery\bin\Debug\net5.0\AccountManagement.Application.Contracts.dll
+G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\01_LampShadeQuery\bin\Debug\net5.0\AccountManagement.Domain.dll
+G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\01_LampShadeQuery\bin\Debug\net5.0\AccountMangement.Infrastructure.EFCore.dll
 G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\01_LampShadeQuery\bin\Debug\net5.0\BlogManagement.Application.Contracts.dll
 G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\01_LampShadeQuery\bin\Debug\net5.0\BlogManagement.Domain.dll
 G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\01_LampShadeQuery\bin\Debug\net5.0\BlogManagement.Infrastructure.EFCore.dll
@@ -28,6 +27,9 @@ G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\01_LampShadeQuery\bin\De
 G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\01_LampShadeQuery\bin\Debug\net5.0\InventoryManagement.Infrastructure.EFCore.pdb
 G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\01_LampShadeQuery\bin\Debug\net5.0\ShopManagement.Infrastructure.EfCore.pdb
 G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\01_LampShadeQuery\bin\Debug\net5.0\0_Framework.pdb
+G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\01_LampShadeQuery\bin\Debug\net5.0\AccountManagement.Application.Contracts.pdb
+G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\01_LampShadeQuery\bin\Debug\net5.0\AccountManagement.Domain.pdb
+G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\01_LampShadeQuery\bin\Debug\net5.0\AccountMangement.Infrastructure.EFCore.pdb
 G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\01_LampShadeQuery\bin\Debug\net5.0\BlogManagement.Application.Contracts.pdb
 G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\01_LampShadeQuery\bin\Debug\net5.0\BlogManagement.Domain.pdb
 G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\01_LampShadeQuery\bin\Debug\net5.0\CommentManagement.Application.Contracts.pdb
@@ -39,6 +41,10 @@ G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\01_LampShadeQuery\bin\De
 G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\01_LampShadeQuery\bin\Debug\net5.0\ShopManagement.Application.Contracts.pdb
 G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\01_LampShadeQuery\bin\Debug\net5.0\ShopManagement.Domain.pdb
 G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\01_LampShadeQuery\obj\Debug\net5.0\01_LampShadeQuery.csproj.AssemblyReference.cache
+G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\01_LampShadeQuery\obj\Debug\net5.0\01_LampShadeQuery.GeneratedMSBuildEditorConfig.editorconfig
+G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\01_LampShadeQuery\obj\Debug\net5.0\01_LampShadeQuery.AssemblyInfoInputs.cache
+G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\01_LampShadeQuery\obj\Debug\net5.0\01_LampShadeQuery.AssemblyInfo.cs
+G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\01_LampShadeQuery\obj\Debug\net5.0\01_LampShadeQuery.csproj.CoreCompileInputs.cache
 G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\01_LampShadeQuery\obj\Debug\net5.0\01_LampShadeQuery.csproj.CopyComplete
 G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\01_LampShadeQuery\obj\Debug\net5.0\01_LampShadeQuery.dll
 G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\01_LampShadeQuery\obj\Debug\net5.0\ref\01_LampShadeQuery.dll

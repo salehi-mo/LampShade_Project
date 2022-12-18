@@ -1,8 +1,3 @@
-G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\AccountManagement.Domain\obj\Debug\net5.0\AccountManagement.Domain.csproj.AssemblyReference.cache
-G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\AccountManagement.Domain\obj\Debug\net5.0\AccountManagement.Domain.GeneratedMSBuildEditorConfig.editorconfig
-G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\AccountManagement.Domain\obj\Debug\net5.0\AccountManagement.Domain.AssemblyInfoInputs.cache
-G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\AccountManagement.Domain\obj\Debug\net5.0\AccountManagement.Domain.AssemblyInfo.cs
-G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\AccountManagement.Domain\obj\Debug\net5.0\AccountManagement.Domain.csproj.CoreCompileInputs.cache
 G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\AccountManagement.Domain\bin\Debug\net5.0\AccountManagement.Domain.deps.json
 G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\AccountManagement.Domain\bin\Debug\net5.0\AccountManagement.Domain.dll
 G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\AccountManagement.Domain\bin\Debug\net5.0\ref\AccountManagement.Domain.dll
@@ -11,6 +6,11 @@ G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\AccountManagement.Domain
 G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\AccountManagement.Domain\bin\Debug\net5.0\AccountManagement.Application.Contracts.dll
 G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\AccountManagement.Domain\bin\Debug\net5.0\0_Framework.pdb
 G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\AccountManagement.Domain\bin\Debug\net5.0\AccountManagement.Application.Contracts.pdb
+G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\AccountManagement.Domain\obj\Debug\net5.0\AccountManagement.Domain.csproj.AssemblyReference.cache
+G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\AccountManagement.Domain\obj\Debug\net5.0\AccountManagement.Domain.GeneratedMSBuildEditorConfig.editorconfig
+G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\AccountManagement.Domain\obj\Debug\net5.0\AccountManagement.Domain.AssemblyInfoInputs.cache
+G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\AccountManagement.Domain\obj\Debug\net5.0\AccountManagement.Domain.AssemblyInfo.cs
+G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\AccountManagement.Domain\obj\Debug\net5.0\AccountManagement.Domain.csproj.CoreCompileInputs.cache
 G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\AccountManagement.Domain\obj\Debug\net5.0\AccountManagement.Domain.csproj.CopyComplete
 G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\AccountManagement.Domain\obj\Debug\net5.0\AccountManagement.Domain.dll
 G:\DotNetCore\Examples\Mvc_Final_Project\Code\LampShade\AccountManagement.Domain\obj\Debug\net5.0\ref\AccountManagement.Domain.dll

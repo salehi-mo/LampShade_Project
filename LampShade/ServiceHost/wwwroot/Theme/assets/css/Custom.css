@@ -204,3 +204,27 @@ body {
     height: 100%;
     width: 100%;
 }
+
+.VerifyTimer {
+    padding: 6px;
+    max-width: 30px;
+    border-radius: 3px;
+    background-color: green;
+    color: white;
+}
+.btn-start-timer {
+    text-align: center;
+    margin-top: 50px;
+    background-color: dodgerblue;
+}
+
+.otp-timer {
+    margin-top: 3px;
+    
+    background-color: azure;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

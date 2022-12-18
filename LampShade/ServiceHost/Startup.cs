@@ -13,6 +13,9 @@ using System.Text.Encodings.Web;
 using System.Text.Unicode;
 using System.Threading.Tasks;
 using _0_Framework.Application;
+using _0_Framework.Application.Email;
+using _0_Framework.Application.Sms;
+using _0_Framework.Application.ZarinPal;
 using _0_Framework.Infrastructure;
 using DiscountManagement.Configuration;
 using InventoryManagement.Infrastructure.Configuration;
@@ -22,16 +25,19 @@ using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Http;
 using AccountManagement.Configuration;
 
+using InventoryManagement.Presentation;
+using ShopManagement.Presentation.Api;
+
 namespace ServiceHost
 {
     public class Startup
     {
+        public IConfiguration Configuration { get; }
+
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
         }
-
-        public IConfiguration Configuration { get; }
 
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
@@ -49,13 +55,13 @@ namespace ServiceHost
             services.AddSingleton<IPasswordHasher, PasswordHasher>();
             services.AddTransient<IFileUploader, FileUploader>();
             services.AddTransient<IAuthHelper, AuthHelper>();
-            //services.AddTransient<IZarinPalFactory, ZarinPalFactory>();
-            //services.AddTransient<ISmsService, SmsService>();
-            //services.AddTransient<IEmailService, EmailService>();
-           
-              services.Configure<CookiePolicyOptions>(options =>
+            services.AddTransient<IZarinPalFactory, ZarinPalFactory>();
+            services.AddTransient<ISmsService, SmsService>();
+            services.AddTransient<IEmailService, EmailService>();
+
+            services.Configure<CookiePolicyOptions>(options =>
             {
-                options.CheckConsentNeeded = context => true;
+                //options.CheckConsentNeeded = context => true;
                 options.MinimumSameSitePolicy = SameSiteMode.Lax;
             });
 
@@ -73,13 +79,13 @@ namespace ServiceHost
                     builder => builder.RequireRole(new List<string> {Roles.Administrator, Roles.ContentUploader}));
 
                 options.AddPolicy("Shop",
-                    builder => builder.RequireRole(new List<string> {Roles.Administrator}));
+                    builder => builder.RequireRole(new List<string> {Roles.Administrator, Roles.ContentUploader }));
 
                 options.AddPolicy("Discount",
-                    builder => builder.RequireRole(new List<string> {Roles.Administrator}));
+                    builder => builder.RequireRole(new List<string> {Roles.Administrator, Roles.ContentUploader }));
 
                 options.AddPolicy("Account",
-                    builder => builder.RequireRole(new List<string> {Roles.Administrator}));
+                    builder => builder.RequireRole(new List<string> {Roles.Administrator, Roles.ContentUploader }));
             });
 
             services.AddCors(options => options.AddPolicy("MyPolicy", builder =>
@@ -88,18 +94,22 @@ namespace ServiceHost
                     .AllowAnyHeader()
                     .AllowAnyMethod()));
 
-            services.AddRazorPages();
-            //.AddMvcOptions(options => options.Filters.Add<SecurityPageFilter>())
-            //.AddRazorPagesOptions(options =>
-            //{
-            //    options.Conventions.AuthorizeAreaFolder("Administration", "/", "AdminArea");
-            //    options.Conventions.AuthorizeAreaFolder("Administration", "/Shop", "Shop");
-            //    options.Conventions.AuthorizeAreaFolder("Administration", "/Discounts", "Discount");
-            //    options.Conventions.AuthorizeAreaFolder("Administration", "/Accounts", "Account");
-            //})
-            //.AddApplicationPart(typeof(ProductController).Assembly)
-            //.AddApplicationPart(typeof(InventoryController).Assembly)
-            //.AddNewtonsoftJson();
+            services.AddRazorPages()
+                .AddMvcOptions(options => options.Filters.Add<SecurityPageFilter>())
+                .AddRazorPagesOptions(options =>
+                {
+                    options.Conventions.AuthorizeAreaFolder("Administration", "/", "AdminArea");
+                    options.Conventions.AuthorizeAreaFolder("Administration", "/Shop", "Shop");
+                    options.Conventions.AuthorizeAreaFolder("Administration", "/Discounts", "Discount");
+                    options.Conventions.AuthorizeAreaFolder("Administration", "/Accounts", "Account");
+                })
+            .AddApplicationPart(typeof(ProductController).Assembly)
+            .AddApplicationPart(typeof(InventoryController).Assembly)
+            .AddNewtonsoftJson();
+
+            ////services.AddMemoryCache();
+            ////services.AddSession();
+            ////services.AddMvc();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -129,11 +139,14 @@ namespace ServiceHost
 
             app.UseCors("MyPolicy");
 
+            //////app.UseSession();
+
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapRazorPages();
                 endpoints.MapControllers();
             });
+
 
         }
     }

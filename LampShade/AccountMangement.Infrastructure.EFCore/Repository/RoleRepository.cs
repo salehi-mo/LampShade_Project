@@ -25,6 +25,8 @@ namespace AccountMangement.Infrastructure.EFCore.Repository
                     Id = x.Id,
                     Name = x.Name,
                     MappedPermissions = MapPermissions(x.Permissions)
+                    
+                    
                 }).AsNoTracking()
                 .FirstOrDefault(x => x.Id == id);
 
@@ -35,7 +37,7 @@ namespace AccountMangement.Infrastructure.EFCore.Repository
 
         private static List<PermissionDto> MapPermissions(IEnumerable<Permission> permissions)
         {
-            return permissions.Select(x => new PermissionDto(x.Code, x.Name)).ToList();
+            return permissions.Select(x => new PermissionDto(x.Code, x.Name,x.PersianName)).ToList();
         }
 
         public List<RoleViewModel> List()
